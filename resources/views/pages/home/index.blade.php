@@ -16,8 +16,7 @@
                 </thead>
                 <tbody>
                     @foreach ($contacts as $contact)
-                    <tr class="border-2 border-black">
-                        
+                    <tr class="border-2 border-gray-200">
                         <td class="text-center">{{ $contact['nameMHS'] }}</td>
                         <td class="text-center">{{ $contact['nameKRY'] }}</td>
                     </tr>
